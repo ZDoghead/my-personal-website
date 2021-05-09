@@ -1,0 +1,17 @@
+// 提供混合的样式
+
+// 水平垂直居中
+.self-center(@position: absolute) {
+  position: @position;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// 填充满区域
+.self-fill(@position: absolute) {
+  position: @position;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
